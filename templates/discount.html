@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block title%}
+<title>Распродажа</title>
+{% endblock %}
+
+{% block body %}
+
+ <div class="container">
+  <header>
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <strong><h1 class="text-error">РАСПРОДАЖА</h1></strong>
+      <p class="fs-5 text-muted"> Не упустите шанс приобрести качественные товары для Вашего дома по выгодным ценам!</p>
+
+    </div>
+  </header>
+
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+               <div class="col">
+                 <div class="card mb-4 rounded-3 shadow-sm">
+                   <div class="card-header py-3">
+                      <h4 class="my-0 fw-normal">-30%</h4>
+                   </div>
+                   <div class="card-body">
+                     <div class="col-2 offset-1">
+                       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQOVOqlZHe1zkv5UUN3SzSxO5eAcTGNcAG81iZxwbZy5R-ZJpH2ITY6jTZhPhMy0ETaEM&usqp=CAU" width="320" height="300">
+                     </div>
+                     <h2>Постельное бельё</h2>
+                     <button type="button" class="w-100 btn btn-lg btn-outline-primary">Просмотреть</button>
+                   </div>
+                 </div>
+               </div>
+               <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">-50%</h4>
+                  </div>
+                <div class="card-body">
+                    <div class="col-4 offset-2">
+                        <img src="https://i0.wp.com/s-media-cache-ak0.pinimg.com/564x/1b/f8/4d/1bf84d3e6bfdd4b4fb530d2e924109d8.jpg?resize=525%2C680&ssl=1" width="320" height="300">
+                    </div>
+                    <h2>Интерьер</h2>
+                 <button type="button" class="w-100 btn btn-lg btn-primary">Просмотреть</button>
+                </div>
+               </div>
+            </div>
+                <div class="col">
+                   <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                      <div class="card-header py-3 text-bg-primary border-primary">
+                         <h4 class="my-0 fw-normal">-80%</h4>
+                      </div>
+                    <div class="card-body">
+                       <div class="col-2 offset-1">
+                         <img src="https://stockmann.ru/upload/iblock/ddf/Kukhnya_273kh204_.png" width="320" height="260">
+                       </div>
+                       <h2>Кухонные принадлежности</h2>
+                      <button type="button" class="w-100 btn btn-lg btn-primary">Просмотреть</button>
+                    </div>
+                   </div>
+                </div>
+            </div>
+
+  </div>
+
+
+{% endblock %}
